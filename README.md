@@ -1,3 +1,41 @@
+# 🚀 Sign-Up Page – Next.js + Zod + shadcn/ui
+
+A modern, production-ready **Sign-Up Page** built using **Next.js (App Router)**, **Zod** for schema validation, and **shadcn/ui** for elegant UI components. This project showcases a robust sign-up form with real-world constraints using **regex** and field-level validations.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js (App Router)**
+- **TypeScript**
+- **Zod** – Form schema validation
+- **React Hook Form** – Form state management
+- **@hookform/resolvers/zod** – Zod integration with React Hook Form
+- **shadcn/ui** – Modern, customizable UI components
+- **Tailwind CSS** – Utility-first styling
+
+---
+
+## ✅ Features
+
+- 📬 **Email Validation** with regex for real-world domains
+- 🔐 **Strong Password Enforcement** (min length, uppercase, symbols, etc.)
+- 👤 **Username Constraints**
+- 💻 Fully responsive layout using Tailwind
+- 🎨 Consistent UI with shadcn's component library
+- 💾 Easily extensible for backend integration
+
+
+## 🧪 Validation Rules
+
+Implemented using **Zod + regex** patterns:
+
+- **Email**: Must be a valid, real-world email format  
+- **Password**: Minimum 8 characters, at least 1 uppercase, 1 symbol, 1 digit  
+- **Username**: Alphanumeric only, 3-20 characters  
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
